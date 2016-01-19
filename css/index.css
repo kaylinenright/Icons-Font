@@ -106,19 +106,46 @@ h1 {
 }
 
 .star-1 {
-    -webkit-animation: opacity 2.5s ease-in-out infinite;
-	animation: opacity 2.5s ease-in-out infinite;
+    -webkit-animation: box-scale 10s ease-in-out infinite;
+    animation: box-scale 10s ease-in-out infinite;
 }
 
 .star-2 {
-    -webkit-animation: star-2 2.5s ease-in-out infinite alternate;
-	animation: star-2 2.5s ease-in-out infinite alternate;
+    -webkit-animation: box-scale 7s ease-in-out infinite;
+    animation: box-scale 7s ease-in-out infinite;
 }
 
 .star-3 {
-    -webkit-animation: star-3 2.5s ease-in-out infinite alternate;
-	animation: star-3 2.5s ease-in-out infinite alternate;
+    -webkit-animation: box-scale 8.5s ease-in-out infinite;
+    animation: box-scale 8.5s ease-in-out infinite;
 }
+
+
+  
+    
+}
+
+@-webkit-keyframes box-scale {
+    0% {
+        -webkit-transform: scale(1, 1);
+    }
+    50% {
+        -webkit-transform: scale(2, 2);
+    }
+}
+
+@keyframes box-scale {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(2, 2);
+    }
+}
+
+
+
+
 
 
 @-webkit-keyframes cloud-1 {
@@ -158,53 +185,6 @@ h1 {
 }
 
 
-@-webkit-keyframes star-1 {
-
-	0% {
-		-webkit-transform: opacity: 0;
-	}
-
-	50% {
-		-webkit-transform: opacity: 1;
-	}
-    
-    100% {
-		-webkit-transform: opacity: 0;
-	}
-
-}
-
-@-webkit-keyframes star-2 {
-
-	0% {
-		-webkit-transform: opacity: 0;
-	}
-
-	50% {
-		-webkit-transform: opacity: 1;
-	}
-    
-    100% {
-		-webkit-transform: opacity: 0;
-	}
-
-}
-
-@-webkit-keyframes star-3 {
-
-	0% {
-		-webkit-transform: opacity: 0;
-	}
-
-	50% {
-		-webkit-transform: opacity: 1;
-	}
-    
-    100% {
-		-webkit-transform: opacity: 0;
-	}
-
-}
 
 @keyframes cloud-1 {
 
@@ -242,50 +222,3 @@ h1 {
 
 }
 
-@keyframes star-1 {
-
-	0% {
-		-webkit-transform: opacity: 0;
-	}
-
-	50% {
-		-webkit-transform: opacity: 1;
-	}
-    
-    100% {
-		-webkit-transform: opacity: 0;
-	}
-
-}
-
-@keyframes star-2 {
-
-	0% {
-		-webkit-transform: opacity: 0;
-	}
-
-	50% {
-		-webkit-transform: opacity: 1;
-	}
-    
-    100% {
-		-webkit-transform: opacity: 0;
-	}
-
-}
-
-@keyframes star-3 {
-
-	0% {
-		-webkit-transform: opacity: 0;
-	}
-
-	50% {
-		-webkit-transform: opacity: 1;
-	}
-    
-    100% {
-		-webkit-transform: opacity: 0;
-	}
-
-}
