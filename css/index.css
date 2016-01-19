@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #A3CBEF;
+    background-color: #135372;
 }
 
 .btn {
@@ -46,8 +46,12 @@ body {
 h1 {
     color: #fff;
     text-align: center;
-    font-size: 2.2807rem;
+    font-size: 3.2807rem;
     line-height: 1.3154;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    padding-top: 20%;
+    
 }
 
 .sheep {
@@ -61,3 +65,113 @@ h1 {
     padding-top: 20%;
 }
 
+
+
+.cloud-bunch {
+	position: relative;
+}
+
+.cloud-1 {
+	position: absolute;
+	top: .5em;
+    left: 35%;
+    z-index: 100;
+	-webkit-animation: cloud-1 2s ease-in-out infinite alternate;
+	animation: cloud-1 2s ease-in-out infinite alternate;
+}
+
+.cloud-2 {
+	position: absolute;
+	right: 10%;
+	z-index: 100;
+	-webkit-animation: cloud-2 2s ease-in-out infinite alternate;
+	animation: cloud-2 2s ease-in-out infinite alternate;
+}
+
+.cloud-3 {
+	position: absolute;
+	left: 7%;
+	top: 1em;
+	z-index: 100;
+	-webkit-animation: cloud-3 2.5s ease-in-out infinite alternate;
+	animation: cloud-3 2.5s ease-in-out infinite alternate;
+}
+
+.star-bunch {
+    color: #EECC00;
+    padding: none;
+    margin: none;
+    font-size: 110px;
+}
+
+@-webkit-keyframes cloud-1 {
+
+	0% {
+		-webkit-transform: translateX(0px);
+	}
+
+	100% {
+		-webkit-transform: translateX(5px);
+	}
+
+}
+
+@-webkit-keyframes cloud-2 {
+
+	0% {
+		-webkit-transform: translateX(5px);
+	}
+
+	100% {
+		-webkit-transform: translateX(0px);
+	}
+
+}
+
+@-webkit-keyframes cloud-3 {
+
+	0% {
+		-webkit-transform: translateX(0px);
+	}
+
+	100% {
+		-webkit-transform: translateX(5px);
+	}
+
+}
+
+@keyframes cloud-1 {
+
+	0% {
+		transform: translateX(0px);
+	}
+
+	100% {
+		transform: translateX(5px);
+	}
+
+}
+
+@keyframes cloud-2 {
+
+	0% {
+		transform: translateX(5px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+
+}
+
+@keyframes cloud-3 {
+
+	0% {
+		transform: translateX(0px);
+	}
+
+	100% {
+		transform: translateX(5px);
+	}
+
+}
