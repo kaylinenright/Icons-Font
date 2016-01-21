@@ -44,6 +44,7 @@ h1 {
 
 .cloud-bunch {
 	position: relative;
+	padding: 0.9em;
 }
 
 .cloud-1 {
@@ -75,7 +76,7 @@ h1 {
 
 .star-bunch {
     color: #EECC00;
-    padding-top: .1em;
+    padding-top: .3em;
     margin: none;
     font-size: 100px;
     text-align: center;
@@ -260,7 +261,6 @@ h1 {
 
 .cloud {
     font-size: 99px;
-    padding-top: 20%;
 }
 
 
@@ -289,6 +289,10 @@ h1 {
     padding-top: .5em;
     font-size: 110px;
 }
+    
+      .cloud-bunch {
+	padding: 0.9em;
+}
   
 }
     
@@ -314,8 +318,6 @@ h1 {
 
 .cloud {
     font-size: 99px;
-    padding-top: 20%;
-    padding-bottom: none;
 }
 
 
@@ -330,14 +332,18 @@ h1 {
 }
 
 .cloud-3 {
-	left: 22%;
+	left: 25%;
 	top: .5em;
+}
+    
+    .cloud-bunch {
+	padding: 0.9em;
 }
 
 .star-bunch {
     padding-top: .3em;
-    margin: none;
-    padding-bottom: none;
+    margin: 0;
+    padding: 0.1em;
 }
     
  .sheep-colony {
