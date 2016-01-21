@@ -9,7 +9,7 @@
   -ms-flex-flow: row wrap;
   display: flex;
   flex-flow: row wrap;
-}
+} 
 
 .grid-bottom {
   -webkit-align-items: flex-end;
