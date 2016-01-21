@@ -25,7 +25,7 @@ body {
 h1 {
     color: #EECC00;
     text-align: center;
-    font-size: 3.2807rem;
+    font-size: 3rem;
     line-height: 1.3154;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
@@ -67,7 +67,7 @@ h1 {
 
 .cloud-3 {
 	position: absolute;
-	left: 7%;
+	left: 10%;
 	top: .5em;
 	z-index: 100;
 	-webkit-animation: cloud-3 2.5s ease-in-out infinite alternate;
@@ -78,7 +78,6 @@ h1 {
     color: #EECC00;
     padding-top: .1em;
     margin: none;
-    font-size: 110px;
     font-size: 100px;
     text-align: center;
 }
@@ -249,10 +248,49 @@ h1 {
 
 
 @media only screen and (min-width: 38em) {
-
-
     
     
+    h1 {
+    font-size: 4.2807rem;
+    line-height: 0.3154;
+}
+
+.sheep {
+    font-size: 200px;
+}
+
+.cloud {
+    font-size: 99px;
+    padding-top: 20%;
+}
+
+
+.cloud-1 {
+	top: .1em;
+    left: 40%;
+}
+
+.cloud-2 {
+	right: 17%;
+    top: .5em;
+}
+
+.cloud-3 {
+	left: 12%;
+	top: .5em;
+}
+
+.star-bunch {
+    padding-top: .3em;
+    font-size: 140px;
+    margin: none;
+
+}
+ .sheep-colony {
+    padding-top: .5em;
+    font-size: 110px;
+}
+  
 }
     
     @media only screen and (min-width: 60em) {
