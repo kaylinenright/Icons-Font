@@ -29,7 +29,6 @@ h1 {
     line-height: 1.3154;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
-    padding-top: 10%;  
 }
 
 .sheep {
@@ -40,7 +39,7 @@ h1 {
     font-size: 99px;
     color: white;
     text-align: center;
-    padding-top: 20%;
+    padding: 0;
 }
 
 .cloud-bunch {
@@ -293,5 +292,55 @@ h1 {
   
 }
     
-    @media only screen and (min-width: 60em) {
+
+@media only screen and (min-width: 60em) {
+
+h1 {
+    padding-top: none;
+    margin: none;
+
+}
+  
+.none {
+    padding: none;
+    margin: none;
+}
+    
+.sheep {
+    font-size: 200px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.cloud {
+    font-size: 99px;
+    padding-top: 20%;
+    padding-bottom: none;
+}
+
+
+.cloud-1 {
+	top: .1em;
+    left: 45%;
+}
+
+.cloud-2 {
+	right: 27%;
+    top: .5em;
+}
+
+.cloud-3 {
+	left: 22%;
+	top: .5em;
+}
+
+.star-bunch {
+    padding-top: .3em;
+    margin: none;
+    padding-bottom: none;
+}
+    
+ .sheep-colony {
+    padding-top: 1em;     
+}
     }
